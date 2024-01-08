@@ -8,6 +8,7 @@
 #define revV(V) reverse(allV(V))
 #define sortA(arr, size) sort(allA(arr, size))
 #define revA(arr, size) reverse(allA(arr, size))
+#define sumV(a) accumulate(a.begin(), a.end(), 0)
 #define fi first
 #define se second 
 #define pb(V) push_back(V)
@@ -26,7 +27,7 @@ const ld EPS = 1e-9;
 using namespace std;
 
 void solve() {
-
+    
 }
 
 int main() {
