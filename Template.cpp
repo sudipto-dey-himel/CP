@@ -2,6 +2,12 @@
 #define ll long long
 #define ld long double
 #define endl '\n'
+#define HA cout<<"YES"<<endl
+#define Ha cout<<"Yes"<<endl
+#define ha cout<<"yes"<<endl
+#define NA cout<<"NO"<<endl
+#define Na cout<<"No"<<endl
+#define na cout<<"no"<<endl
 #define allV(V) (V).begin(), (V).end()
 #define allA(arr, size) arr, arr+size
 #define sortV(V) sort(allV(V))
