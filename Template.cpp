@@ -6,7 +6,7 @@
 #define allV(V) (V).begin(), (V).end()
 #define allA(arr, size) arr, arr+size
 #define allS(s) s.begin(), s.end()
-#define sumV(a) accumulate(a.begin(), a.end(), 0)
+#define sumV(a) accumulate(a.begin(), a.end(), 0LL)
 #define fi first
 #define se second 
 #define pb(V) push_back(V)
