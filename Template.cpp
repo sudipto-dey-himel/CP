@@ -5,11 +5,7 @@
 #define bug(a) cout << #a << " : " << a << endl;
 #define allV(V) (V).begin(), (V).end()
 #define allA(arr, size) arr, arr+size
-#define sortA(arr, size) sort(allA(arr, size))
-#define revA(arr, size) reverse(allA(arr, size))
-#define sortV(V) sort(allV(V))
-#define revV(V) reverse(allV(V))
-#define revS(s) reverse(s.begin(), s.end())
+#define allS(s) s.begin(), s.end()
 #define sumV(a) accumulate(a.begin(), a.end(), 0)
 #define fi first
 #define se second 
