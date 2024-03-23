@@ -25,8 +25,8 @@
 
 const int MAX_SIZE = 1e5 + 5;
 const ll MOD = 1e9 + 7;
-const ll INF = INT_MAX;
-const ld EPS = INT_MIN;
+const ll INF = LLONG_MAX;
+const ld EPS = LLONG_MIN;
 
 using namespace std;
 
