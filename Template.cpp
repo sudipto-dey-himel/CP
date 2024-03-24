@@ -10,7 +10,7 @@
 #define fi first
 #define se second 
 #define pb(V) push_back(V)
-#define ppb(V) pop_back(V)
+#define ppb() pop_back()
 #define maxV(V) *max_element(V.begin(), V.end())
 #define mnV(V) *min_element(V.begin(), V.end())
 #define mx(a, b, c) max(a, max(b, c))
