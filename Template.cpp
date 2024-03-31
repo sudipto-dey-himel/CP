@@ -3,15 +3,13 @@
 #define ld long double
 #define endl '\n'
 #define bug(a) cout << #a << " : " << a << endl;
-#define allV(V) (V).begin(), (V).end()
-#define allA(arr, size) arr, arr+size
-#define allS(s) s.begin(), s.end()
+#define all(V) (V).begin(), (V).end()
 #define sumV(a) accumulate(a.begin(), a.end(), 0LL)
 #define fi first
 #define se second 
-#define pb(V) push_back(V)
-#define ppb() pop_back()
-#define maxV(V) *max_element(V.begin(), V.end())
+#define pb push_back
+#define ppb pop_back
+#define mxV(V) *max_element(V.begin(), V.end())
 #define mnV(V) *min_element(V.begin(), V.end())
 #define mx(a, b, c) max(a, max(b, c))
 #define mn(a, b, c) min(a, min(b, c))
