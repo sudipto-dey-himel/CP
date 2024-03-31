@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
-#define ll long long
-#define ld long double
+
+typedef long long ll;
+typedef double ld;
+
 #define endl '\n'
 #define fi first
 #define se second 
