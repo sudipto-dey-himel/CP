@@ -10,6 +10,7 @@ typedef double ld;
 #define ppb pop_back
 #define HA cout<<"YES"<<endl
 #define NA cout<<"NO"<<endl
+#define mem(a, b) memset(a, b, sizeof(a))
 #define tc() ll t;cin>>t;while(t--)
 #define all(V) (V).begin(), (V).end()
 #define bug(a) cout << #a << " : " << a << endl;
