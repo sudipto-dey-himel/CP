@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 typedef long long ll;
 typedef double ld;
@@ -28,8 +29,6 @@ const int MAX_SIZE = 1e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = LLONG_MAX;
 const ld EPS = LLONG_MIN;
-
-using namespace std;
 
 void solve() {
     
