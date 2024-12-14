@@ -10,7 +10,6 @@ typedef double ld;
 #define HA cout<<"YES"<<endl
 #define NA cout<<"NO"<<endl
 #define mem(a, b) memset(a, b, sizeof(a))
-#define tc() ll t;cin>>t;while(t--)
 #define all(V) (V).begin(), (V).end()
 #define bug(a) cout << #a << " : " << a << endl;
 #define sumV(a) accumulate(a.begin(), a.end(), 0LL)
@@ -30,9 +29,11 @@ void solve() {
     
 }
 
-int main() {
+int32_t main() {
     opt();
-    tc() {
+    ll t = 1; 
+    cin >> t;
+    while(t--) {
         solve();
     }
     return 0;
