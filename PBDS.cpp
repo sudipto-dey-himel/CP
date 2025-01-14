@@ -28,7 +28,7 @@ int main() {
 	cout << "\n";
 
 	// finding kth element 
-	cout << "2nd element: " << *A.find_by_order(2) << "\n";
+	cout << "3rd element: " << *A.find_by_order(2) << "\n";
 
     // finding number of eles smaller than k
     cout << "Eles smaller than 7: " << A.order_of_key(7) << "\n";
